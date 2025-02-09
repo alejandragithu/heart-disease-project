@@ -8,7 +8,7 @@ import numpy as np
 st.title("Predicción de Enfermedades Cardíacas")
 st.write("Dime los valores y obtendrás una predicción sobre la probabilidad de enfermedad cardíaca.")
 
-# Cargar el modelo y el StandardScaler desde archivos locales.
+# Cargar el modelo y el StandardScaler desde los archivos locales.
 modelo = joblib.load("heart_disease_model.pkl")
 scaler = joblib.load("scaler.pkl")
 
